@@ -9,11 +9,10 @@ on:
     branches:
       - main
 
-
 #job
 jobs:
   test:
     runs-on: ubuntu-latest
     steps:
-      -name: print hello
-      run: echo "test"
+      - name: print hello
+        run: echo "test"
